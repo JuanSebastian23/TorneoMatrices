@@ -2,7 +2,7 @@ using System;
 
 class TorneoFutbol
 {
-    // Declaramos los equipos y la tabla de posiciones
+    // Declarar los equipos y la tabla de posiciones
     static string[] equipos = { "Equipo A", "Equipo B", "Equipo C", "Equipo D" };
     static int[,] tablaPosiciones = new int[4, 7]; // [Puntos, PG, PE, PP, GF, GC, DF]
     static Random rand = new Random();
